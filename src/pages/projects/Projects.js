@@ -6,45 +6,53 @@ import vsCodePortfolioImage from "../../assets/project-images/vs-code-portfolio.
 import encodeImage from "../../assets/project-images/encode.png";
 
 const projectsData = [
+  // {
+  //   id: 1,
+  //   name: "Encode",
+  //   image: encodeImage,
+  //   description:
+  //     "A platform for programmers to run their code online in any web browser.",
+  //   tags: ["javascript", "react", "react-redux", "bootstrap", "codemirror"],
+  //   source_code: "https://github.com/anshphirani/encode",
+  //   demo: "https://anshphirani.github.io/encode/",
+  // },
   {
     id: 1,
-    name: "Encode",
-    image: encodeImage,
-    description:
-      "A platform for programmers to run their code online in any web browser.",
-    tags: ["javascript", "react", "react-redux", "bootstrap", "codemirror"],
-    source_code: "https://github.com/anshphirani/encode",
-    demo: "https://anshphirani.github.io/encode/",
-  },
-  {
-    id: 2,
     name: "VSCode Portfolio",
     image: vsCodePortfolioImage,
     description:
       "A themeable and developer-centric portfolio with a sleek VS Code theme to showcase my work and skills.",
     tags: ["javascript", "react", "css-modules"],
-    source_code: "https://github.com/anshphirani/vs-code-portfolio",
-    demo: "https://anshphirani.github.io/vs-code-portfolio/",
+    source_code: "https://github.com/A-maan18/vs-code-portfolio",
+    demo: "https://a-maan18.github.io/vs-code-portfolio/",
+  },
+  {
+    id: 2,
+    name: "AD-Kart",
+    image: covidTrackerImage,
+    description:
+      "A user-friendly web application to list real estate property",
+    tags: ["javascript", "css"],
+    source_code: "https://github.com/A-maan18/Adkart",
+    demo: "https://a-maan18.github.io/Adkart/",
   },
   {
     id: 3,
-    name: "Covid-O-Meter",
-    image: covidTrackerImage,
-    description:
-      "A user-friendly web application that fetches real-time country-wise COVID data from API",
-    tags: ["javascript", "react", "chart.js", "axios"],
-    source_code: "https://github.com/anshphirani/covidtracker",
-    demo: "https://anshphirani.github.io/covidtracker/",
+    name: "travel-list",
+    description: "a web app to add essential list of items to your list",
+    tags: ["javascript", "react"],
+    source_code: "https://github.com/A-maan18/travel-list",
+    demo: "https://a-maan18.github.io/travel-list/",
   },
-  // {
-  //   id: 4,
-  //   name: "Amazn Clone",
-  //   image: covidTrackerImage,
-  //   description:
-  //     "a amazon clone with full e-commerce functionality and stripe payment gateway integration",
-  //   tags: ["javascript", "react", "stripe"],
-  //   source_code: "https://github.com/anshphirani/amazon-clone",
-  // },
+  {
+    id: 3,
+    name: "E-Istihaar",
+    description:
+      "A Web-Application that enhance PG/Flat businesses by providing tenant to design a Pamplet after collecting data from user that connect to the web page containing all      information about Facilities, Photos, Location, Reviews ",
+    tags: ["javascript", "HTML", "CSS"],
+    source_code: "https://github.com/A-maan18/E-istihaar",
+    demo: "https://a-maan18.github.io/E-istihaar/",
+  },
 ];
 
 const Projects = () => {
